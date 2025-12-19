@@ -1,0 +1,28 @@
+	Polymorphism in python lets you use the same function name for different types of objects.
+•	This means one function or method can act in many forms.
+•	It makes your code flexible and easy to manage.
+•	It helps you write code that can work with various objects.
+•	You do not need to know their exact type.
+•	This saves time.
+•	It also makes your programs more adaptable.
+	3 WAYS TO USE POLYMORPHISM IN PYTHON
+
+•	You can use polymorphism in python in a few ways:
+•	With built in functions: Python’s own functions often use polymorphism.
+•	With class method: different classes can have methods that share the same name.
+•	With inheritance(method overriding): child classes can change methods they get fom their parent classes.
+	Polymorphis, with built-in- functions
+Many built-in python functions work in different ways. Their action changes based on the type of data you give them . the len() function is a good example
+•	When you use len() on a string, it  counts the characters.
+•	When you use len() on a list, it counts the items.
+•	When you use len() on a dictionary, it counts the keys.
+Here’s how len() works
+# use len() with a string
+My string = “hello”
+Print(len(my string))
+#use len() with a list
+My list = [1,2,3,4]
+Print(len(my list))
+#use len() with a dictionary
+My dict={“a”:1,”b”:2}
+Print(len(my dict))
