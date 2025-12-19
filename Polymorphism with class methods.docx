@@ -1,0 +1,12 @@
+Polymorphism with class methods
+You can define methods with the same name different classes. These classes do not need 
+Think about these two classes: dog and cat. Both have a sound() method
+Class Dog:
+Def sounds(self):
+Print(“Woof!”)
+#make objects(instances)from these classes
+my dog = Dog()
+my cat = Cat()
+#call the same method on different objects
+my dog.sound()
+My cat.sound()
