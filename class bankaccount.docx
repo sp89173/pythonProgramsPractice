@@ -1,0 +1,21 @@
+
+Class bank account:
+obj = Student("Ravi")#object banate hi private method chala
+""
+class BankAccount:
+    def __init__(self,owner,balance):
+        self.owner = owner
+        self.balance = balance
+    def bygetter(self):
+        return self.__balance
+    def bygetter(self,amount):
+        if amount>=0:
+            self.__balance = amount
+        else:
+            print("Invalid amount!")
+
+obj =BankAccount("Imran",2200)
+print(obj.bygetter())
+
+obj.bygetter(54000)
+print(obj.bygetter())
