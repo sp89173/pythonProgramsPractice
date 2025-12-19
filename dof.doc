@@ -1,0 +1,15 @@
+class person:
+      def __init__(self,name,age):
+            self.Name = name
+            self.Age = age
+
+class student(person):
+      def __init__(name,age = 706):
+      self.roll_no = rollno
+
+      def introduce(self):
+            print(f"My name is {self.name},age{self.Age},roll number {self.roll_no}.")
+
+            obj = student("raju",23)
+            obj.introduce()
+
